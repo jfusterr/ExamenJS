@@ -13,3 +13,5 @@ function calculaIVA(){
 function canviaFons(tipus){
     
 }
+
+buenas tardes
