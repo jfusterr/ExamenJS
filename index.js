@@ -5,8 +5,7 @@ function _id(ident) {
 
 
 function factorial() {
-    var entradafacto = _id("entradaFactorial").value
-    var pepe = entradafacto
+    var pepe = _id("entradaFactorial").value
     var factorialop = ""
     var resultadof = 1
 
