@@ -49,6 +49,7 @@ function canviaFons(Fons) {
 
     var colorfondo = ""
     var letrascol = ""
+    var negativo = ""
 
     if (Fons == "clear"){
         colorfondo = "white";
@@ -57,6 +58,12 @@ function canviaFons(Fons) {
         var gris = Math.floor(Math.random() * 255);
         
         colorfondo = "rgb(" + gris + "," + gris + "," + gris + ")";
+        if(gris<70){
+
+            negativo = 255 - gris;
+            letrascol = "rgb(" + negativo + "," + negativo + "," + negativo + ")";
+
+        }
     }
 
     _id("etesech").style.backgroundColor = colorfondo;
